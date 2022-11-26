@@ -166,7 +166,7 @@ echo "::group::build MySQL"
     mkdir build
     cd build
     cmake "../mysql-server-mysql-$MYSQL_VERSION" \
-        -DCOMPILATION_COMMENT="shogo82148/actions-setup-mysql@v$ACTION_VERSION" \
+        -DCOMPILATION_COMMENT="karimz1/actions-setup-mysql@v$ACTION_VERSION" \
         -DDOWNLOAD_BOOST=1 -DWITH_BOOST=../boost \
         -DWITH_ROCKSDB_LZ4=OFF -DWITH_ROCKSDB_BZip2=OFF -DWITH_ROCKSDB_Snappy=OFF -DWITH_ROCKSDB_ZSTD=OFF \
         -DWITH_UNIT_TESTS=OFF \

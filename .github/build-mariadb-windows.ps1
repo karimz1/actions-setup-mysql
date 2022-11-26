@@ -136,7 +136,7 @@ $BOOST = Join-Path $RUNNER_TEMP "boost"
 New-Item "build" -ItemType Directory -Force
 Set-Location build
 cmake ( Join-Path $RUNNER_TEMP "mariadb-$MARIADB_VERSION" ) `
-    -DCOMPILATION_COMMENT="shogo82148/actions-setup-mysql@v$ACTION_VERSION" `
+    -DCOMPILATION_COMMENT="karimz1/actions-setup-mysql@v$ACTION_VERSION" `
     -DDOWNLOAD_BOOST=1 -DWITH_BOOST="$BOOST" `
     -DWITH_ROCKSDB_LZ4=OFF -DWITH_ROCKSDB_BZip2=OFF -DWITH_ROCKSDB_Snappy=OFF -DWITH_ROCKSDB_ZSTD=OFF `
     -DWITH_UNIT_TESTS=OFF `

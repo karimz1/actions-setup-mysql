@@ -133,7 +133,7 @@ async function getDownloadUrl(filename: string): Promise<string> {
 
   const info = await promise;
   const actionsVersion = info.version;
-  return `https://github.com/shogo82148/actions-setup-mysql/releases/download/v${actionsVersion}/${filename}`;
+  return `https://github.com/karimz1/actions-setup-mysql/releases/download/v${actionsVersion}/${filename}`;
 }
 
 function getImageOS(): string {
