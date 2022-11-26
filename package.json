@@ -1,6 +1,6 @@
 {
   "name": "actions-setup-mysql",
-  "version": "1.14.1",
+  "version": "1.14.1.1",
   "private": true,
   "description": "Setup MySQL GitHub Action Fork from https://github.com/shogo82148/actions-setup-mysql",
   "main": "lib/main.js",
